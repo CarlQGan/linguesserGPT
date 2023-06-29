@@ -18,7 +18,7 @@ def __read_languages(languages_path):
 
     return languages
 
-languages_file_path = "./languages.txt"  # file path to the languages list file
+languages_file_path = "./linguesserGPT/languages.txt"  # file path to the languages list file
 LANGUAGES = __read_languages(languages_file_path)
 
 

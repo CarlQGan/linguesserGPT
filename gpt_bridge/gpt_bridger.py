@@ -13,7 +13,7 @@ def __read_prompt(prompt_path):
         prompt = file.read()
     return prompt
 
-prompt_path = "./prompt.txt"  # file path to the prompt formatter
+prompt_path = "./gpt_bridge/prompt.txt"  # file path to the prompt formatter
 PROMPT_FORMAT = __read_prompt(prompt_path)
 
 
