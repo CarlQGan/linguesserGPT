@@ -54,7 +54,7 @@ The game will guide you through the process. Just input the text in the language
 
 ## Contributing
 
-Contributions are welcome! Please read the [contributing guide](CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to linguesserGPT.
+Contributions are welcome! Please read the [contributing guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to linguesserGPT.
 
 ## License
 
