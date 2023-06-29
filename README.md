@@ -18,10 +18,10 @@ The application aims to guess the language input by the user, providing both ent
 
 Before starting, please make sure you have Python 3.6 or higher installed on your system. You can verify this by running `python3 --version` in your terminal. If you don't have Python installed, you can download it [here](https://www.python.org/downloads/).
 
-Clone the repository to your local machine:
+Fork this repo and clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/linguesserGPT.git
+git clone https://github.com/<your_user_name>/linguesserGPT.git
 ```
 
 Navigate to the project directory:
