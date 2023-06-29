@@ -17,10 +17,13 @@ prompt_path = "./prompt.txt"  # file path to the prompt formatter
 PROMPT_FORMAT = __read_prompt(prompt_path)
 
 
-
+"""
+A bridger class to communicate with OpenAI's GPT API.
+"""
 class GPTBridger:
     def __init__(self, api_key : str = None) -> None:
         self.api_key = api_key
+        
         if self.api_key is None:
             self.api_key = os.getenv("OPENAI_API_KEY")
         if self.api_key is None:

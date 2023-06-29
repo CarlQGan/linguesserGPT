@@ -22,7 +22,9 @@ languages_file_path = "./languages.txt"  # file path to the languages list file
 LANGUAGES = __read_languages(languages_file_path)
 
 
-
+"""
+The main class for LinguesserGPT.
+"""
 class LinguesserGPT:
     def __init__(self, api_key : str = None, default_points : int = 1, default_attempts : int = 3) -> None:
         self.api_key = api_key
